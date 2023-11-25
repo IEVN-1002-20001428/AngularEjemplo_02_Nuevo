@@ -10,6 +10,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
+import { AlumnosComponent } from './utl/alumnos/alumnos.component';
+import { AlumnosUtlFilterPipe } from './alumnos-filter.pipe';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     MenuComponent,
     AgregarComponent,
-    HomeComponent
+    HomeComponent,
+    AlumnosComponent,
+    AlumnosUtlFilterPipe
   ],
   imports: [
     BrowserModule,
